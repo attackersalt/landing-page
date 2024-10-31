@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.navigation {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    padding: 0 32px;
+    gap: 12px;
+}
+
+.navigation li.logo {
+    margin: 0 auto;
+    font-weight: 700;
+}
+
+.header-main {
+    display: flex;
+    gap: 24px;
+    padding: 24px;
+    height: 300px;
+}
+
+.header-box {
+    flex: 1;
+    box-sizing: border-box;
+    padding: 32px;
+}
+
+.header-box.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+}
+
+
+.header-box.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.placeholder {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 16px;
+    gap: 32px;
+    justify-content: center;
+    height: 350px;
+}
+
+main h2 {
+    text-align: center;
+}
+
+.image-text-holder {
+    display: flex;
+    gap: 4px;
+    padding: 8px;
+    height: auto;
+}
+
+.image-text-box {
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 12px;
+   justify-content: center;
+   padding: 12px 0;
+}
+
+
+.image-text-box .placeholder {
+    width: 150px;
+    height: 150px;
+    border: 5px solid green;
+    border-radius: 8px;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    justify-content: center;
+    gap: 12px;
+    padding: 0 32px;
+}
+
+.quote {
+    font-size: 38px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: 700;
+}
+
+.quote-author::before {
+    content: "-";
+}
+
+.sign-up-section {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 48px;
+}
+
+.sign-up-popup {
+    display: flex;
+    flex: 1;
+
+    gap: 12px;
+    padding: 12px 36px;
+}
+
+.sign-up-content, .sign-up-holder {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-content {
+    padding: 24px 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+.sign-up-holder {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.sign-up-button {
+    width: 40%;
+    height: 24px;
+}
+
+footer {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
